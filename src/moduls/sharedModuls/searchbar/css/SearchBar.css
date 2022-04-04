@@ -1,0 +1,59 @@
+.shoplist{
+    min-height: 80vh;
+  }
+.rescard{
+  width: 15rem;
+}
+
+.bar{
+    margin-top: 1vh;
+    background-color:whitesmoke;
+    padding: 1vh;
+    width: 40vw;
+    border-radius: 25px;
+    text-align: center;
+    border:orange 2px solid; 
+    margin-bottom: 1vh;
+}
+.bar:focus{
+  outline:orange 0px solid; 
+}
+
+.searchtionText{
+    float:left;
+    margin-left: 7%;
+    
+
+}
+
+  
+
+@media only screen and (max-width: 600px){
+  
+    .bar{
+  
+        margin-left: 0.5%;
+        width: 90%;
+    }
+    .searchtionText{
+        
+        font-size: 90%;
+    
+    }
+    
+    .searchImageDiv{
+      
+      width: 30%;
+      
+     
+    }
+    .rescard{
+      width: 18rem;
+    }
+      .productInfoDivH{
+        width: 70%;
+        padding-left: 0;
+       
+      }
+
+}

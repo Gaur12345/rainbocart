@@ -1,0 +1,95 @@
+.navigationBar{
+
+    font-size: 20px;
+    color: brown;
+    
+}
+
+.profileImage{
+
+   width: 25%;
+   margin-left: 20%;
+
+  }
+
+  .mobileViewSidebar{
+
+    display: none;
+}
+
+
+
+
+
+  @media only screen and (max-width: 800px){
+
+    .formDIV{
+
+        height:150%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+
+    .titleLogo{
+
+        width: 250px;
+        height: 100px;
+  
+      }
+  
+      .secondLogo{
+  
+       
+        width: 100px;
+        height: 100px;
+      }
+
+  .contactButtonREG{
+
+    margin-top: 0%;
+
+  }
+
+ 
+
+  .secodnDivForm{
+    margin-top: 5%;
+
+  }
+
+
+  .reFressCaptcha{
+
+    height: 40px;
+    width: 50px;
+    
+  }
+
+}
+
+
+
+/* Media query for 370 */
+@media only screen and (max-width: 800px){
+
+
+    .headerBarTop{
+
+        display: none;
+    }
+
+    .sideBARColor{
+        display: none;
+    }
+
+    .mobileViewSidebar{
+
+        display: block;
+    }
+    
+    
+    
+
+}

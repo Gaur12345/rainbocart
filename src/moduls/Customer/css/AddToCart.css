@@ -1,0 +1,576 @@
+.addToCartBox{
+
+    height: 600px;
+    overflow-y: scroll;
+    background-color: white;
+    margin-top: 2%;
+    box-shadow: rgba(19, 70, 109, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.btndiv{
+    margin-left: 2vw;
+}
+.btndiv button{
+    padding-inline: 3vw;
+}
+.addToCartBoxBuyNow{
+
+    height: 240px;
+    overflow-y: scroll;
+    background-color: white;
+    margin-top: 2%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.priceAddToCartBox{
+
+    
+    height: 540px;
+    overflow-y: scroll;
+    background-color: white;
+    margin-top: 1%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   
+
+}
+
+.deliveryDIVBox{
+
+    height: 470px;
+    overflow-y: scroll;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    position: fixed;
+    right: 10vw;
+    
+}
+.deliveryDIVBox1{
+
+    height: fit-content;
+    overflow-y: scroll;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+    
+}
+.stick{
+    position: "fixed" ;
+     right: "3vw";
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.addToCartBox::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.addToCartBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.deliveryDIVBox1::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.deliveryDIVBox1 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.imageOnCartCheckOut{
+    height: 78%;
+    width: 78%;
+}
+
+
+.addToCartCart{
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #F4F6F7;
+  
+
+}
+
+.quentityNumber{
+
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.placeOrder{
+
+    background-color: #F39C12;
+    width: 20vw;
+    padding: 1%;
+    margin-top: 1.5%;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.addDeveliryAddress{
+    background-color: #F39C12;
+    /* width: 24%; */
+    padding: 1%;
+    margin: 5%;
+  
+    outline: none;
+    color: white;
+    border: none;
+
+}
+
+
+.priceCartItemDIV{
+
+    margin-right: 10%;
+    
+}
+
+.minusPlus{
+
+    height: 13%;
+    width: 13%;
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+}
+
+.divMinusPlus{
+
+    margin-top: 20%;
+    padding: 3.5%;
+    background-color: white;
+    height: 20%;
+}
+
+.incrementDecrement{
+
+    width: 30%;
+    margin-top: 0%;
+    text-align: center;
+    margin-bottom: 7%;
+    
+}
+
+.deliveryAddress{
+
+    background-color: white;
+
+    height: 40px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.deliveryAddress h5{
+    text-align: center;
+    color: black;
+    padding-top:1%;
+    text-align: left;
+
+}
+
+.addAddress{
+    background-color: #F39C12;
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.deliAddreSele{
+
+    padding: 0%;
+    margin: 0%;
+    text-align: left;
+}
+
+.radioTB{
+
+    width: 5%;
+}
+
+.radioButton{
+
+    width: 20px;
+    height: 20px;
+}
+
+.editTB{
+
+    float: right;
+    margin-left: 70px;
+    background-color: #F39C12;
+    width: 70%;
+    padding: 1%;
+    margin-top: 5%;
+  
+    outline: none;
+    color: white;
+    border: none;
+
+
+}
+
+.forNewDeliveryAddress{
+
+    
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+
+.addNewDeliveryAddButton{
+
+    margin-top: 1.5%;
+    margin-left: 5%;
+    float: left;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.addNewDeliveryAddButton :focus{
+
+    outline: none;
+}
+
+.addDeliveryAddreeImage{
+
+    height: 50px;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+}
+
+.textforNewAddress{
+
+    color: #24a0ed;
+    
+}
+
+.toggleTagAdd{
+
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+}
+
+.deliverhere{
+
+    background-color: #F39C12;
+    width: 58%;
+    padding: 1%;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.orderSummTotdalAmt{
+    margin-top: 5%;
+}
+
+.ancherTagOnConSha{
+    margin-top: 5%;
+}
+
+
+.CONTINUEButton{
+
+    background-color: #F39C12;
+    width: 70%;
+    padding: 2%;
+    margin-top: 3%;
+    outline: none;
+    color: white;
+    border: none;
+   
+
+}
+
+.OrderButtions{
+
+    background-color: #F39C12;
+    width: 80%;
+    height: 100%;
+    padding: 6%;
+    outline: none;
+    color: white;
+    border: none;
+}
+.back{
+    background-color: #F39C12;
+    width: 120%;
+    height: 120%;
+    padding: 15%;
+    padding-inline: 15%;
+    outline: none;
+    color: white;
+    border: none;
+   
+    
+}
+
+.OrderButtionsAddPro{
+
+    background-color: #F39C12;
+    width: 30%;
+    padding: 1%;
+    outline: none;
+    color: white;
+    border: none;
+    
+   
+}
+
+.paymentButton{
+
+    display: none;
+}
+
+
+.imageOnCart{
+    height: 100px;
+    width: 70%;
+}
+
+.continouSection{
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    margin-left: 10%;
+   
+}
+
+.orderSummeryPrice{
+    width: 50%;
+}
+
+.orderSummButton{
+    width: 50%;
+   
+}
+
+.ancherTagOnConSha{
+    margin-top: 7%;
+}
+
+.deliverhere:hover
+{
+    color: white;
+}
+.CONTINUEButton:hover
+{
+    color: white;
+}
+
+
+.placeHolderDiv{
+    margin-bottom: 3%;
+    background-color: white;
+    height: 60px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.titleHeadning{
+    padding-top: 10vh;
+}
+
+
+
+@media only screen and (max-width:600px){
+    
+    .deliAddreSele{
+        font-size: 70%;
+    }
+    .OrderButtions{
+
+        background-color: #F39C12;
+        width: 100%;
+        padding: 2%;
+        outline: none;
+        color: white;
+        border: none;
+        
+       
+    }
+    .back{
+        margin-top: 0%;
+        padding: 0%;
+        padding-inline: 45%;
+        
+    }
+    .btndiv{
+        margin-left: 2vw;
+    }
+    .btndiv button{
+        padding-inline: 9vw;
+    }
+
+    .OrderButtionsAddPro{
+        width: 80%;
+        padding: 2%;
+        outline: none;
+        color: white;
+        border: none;
+    }
+
+    .cartBodyElemnt{
+
+        padding: 0%;
+        margin: 0%;
+    }
+    .imageOnCart{
+        height: 200px;
+        width: 70%;
+    }
+
+    .imageOnCart{
+        margin-left: 8%;
+        height: 150px;
+        width: 100%;
+    }
+
+    .imageCartMobile{
+        width: 30%;
+    }
+
+    .informationCartMobile{
+        width: 60%;
+        padding-right: 0px;
+    }
+
+    .shopInformation2{
+        font-size: 70%;
+    }
+
+
+    .orderSummTotdalAmt{
+        font-size:  80%;
+        margin-top: 15%;
+    }
+
+    .CONTINUEButton{
+
+       font-size: 70%;
+        width: 100%;
+        padding: 5%;
+        margin-top: 30px;
+        outline: none;
+        color: white;
+        border: none;
+       
+    }
+
+    .ancherTagOnConSha{
+        margin-top: 10%;
+    }
+    
+    .continouSection{
+        background-color: white;
+        height: 60px;
+        width: 100%;
+        margin: 0%;
+    
+    }
+        
+    .deliverhere{
+        width:70%;
+        padding: 1%;
+        font-size: 70%;
+        outline: none;
+        color: white;
+        border: none;
+        
+    }
+
+    .onlinePaymentDiv{
+        width: 50%;
+        
+    }
+
+    .codDiv{
+        width:50%;
+       
+    }
+
+    .priceDivDisDel{
+        margin-left: 5%;
+    }
+    .placeHolderDiv{
+        margin-bottom: 3%;
+        background-color: white;
+        height: 50px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .placeOrder{
+
+        background-color: #F39C12;
+        width: 90%;
+        padding: 1%;
+        margin-top: 3%;
+        outline: none;
+        color: white;
+        border: none;
+    }
+
+    .minusPlus{
+
+        height: 20%;
+        width: 20%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .incrementDecrement{
+
+        width: 40%;
+        margin-top: 1%;
+        text-align: center;
+        
+    }
+
+    .priceAddToCartBox{
+        height: 350px;
+        overflow-y: scroll;
+        background-color: white;
+        margin-top: 2%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        padding: 5%;   
+    }
+
+    .titleHeadning{
+        font-size: 120%;
+    }
+
+    .offerText{
+        margin-left: 7%;
+    }
+    .deliveryDIVBox{
+
+        height: 470px;
+        overflow-y: scroll;
+        background-color: white;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        position: initial;        
+    }
+}
+

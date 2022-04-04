@@ -1,0 +1,223 @@
+
+.page{
+    min-height: 80vh;
+    margin-left: 0;
+}
+.mailDivOrder{
+
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 1%;
+    height: 15vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.ImageOrderPro{
+
+    height: 50%;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.personalInformation{
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    height: 90%;
+    width: 80%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.changePasswordInfo{
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    height: 45%;
+    width: 80%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.newAndConfirmPass{
+
+    margin-top: 10%;
+}
+.tableDivInfo{
+
+    border: none;
+   
+}
+
+.tableDivInfo tr{
+    border: none;
+    
+}
+
+
+
+.editIcon{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+
+.contentDiv{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 1%;
+}
+
+.paraTagOrder{
+    text-align: left;
+    
+    padding : 0%;
+    margin: 0%;
+}
+
+.paraTagOrderSecond{
+
+    text-align: left;
+    padding : 0%;
+    margin: 0%;
+    font-size: 70%;
+
+
+}
+.shippingDeatilsText{
+    padding : 0%;
+    margin: 0%;
+    font-size: 70%;
+    cursor: pointer;
+}
+.shippingDetails{
+
+    cursor: pointer;
+}
+.orderDetailsPage{
+    
+    margin-left: 5%;
+    
+    height: fit-content;
+     
+}
+.orderDetailsPage p{
+font-size: 13px;
+text-align: left;
+}
+.border1{
+    background-color: white;
+    padding: 1%;
+    height: 80vh;
+    
+    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.ImageOrderDetails{
+    height: 100%;
+    width: 70%;
+    padding-left: 15%;
+}
+.editSaveButton{
+
+    display: none;
+    padding: 5px;
+}
+.border2{
+    padding-left: 0px;
+}
+
+@media only screen and (max-width: 600px){
+  
+    .mailDivOrder{
+
+        width: 105%;
+        height: fit-content;
+        margin-left: 0px;
+    }
+    .border2{
+        padding-left: 0px;
+    }
+    .ImageOrderDetails{
+        height: 100%;
+        width: 100%;
+        padding-left: 25%;
+    }
+
+    .ImageOrderPro{
+
+        margin-left: 5%;
+        height: 50%;
+        width: 80%;
+        padding-left: 0%;
+    }
+
+    .allPara{
+        display: inline-flex;
+        margin-left: 5%;
+    }
+    .paraTagOrderSecond{
+
+        text-align: left;
+        padding : 0%;
+        margin: 5%;
+        font-size: 70%;
+    
+    
+    }
+    .contentDiv{
+
+        padding-left: 3px;
+        width: 33%;
+    }
+    .orderDetailsPage{
+       
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 350px;
+    }
+    .personalInformation{
+
+        background-color: white;
+        width: 95%;
+       margin-top: 1%;
+       margin-bottom: 1%;
+       margin-right: 2%;
+       margin-left: 2%;
+       height: 100%;
+       box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+       overflow-x: scroll;
+   
+   }
+
+   .changePasswordInfo{
+    background-color: white;
+    margin-top: 20%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    height: 100%;
+    width: 95%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.paraTagOrder{
+    text-align: left;
+    padding-inline: 45px;
+    
+    margin: 0%;
+}
+.border1{
+    background-color: white;
+    padding: 1%;
+    height: fit-content;
+    
+    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+}

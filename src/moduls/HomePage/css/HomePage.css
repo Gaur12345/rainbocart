@@ -1,0 +1,31 @@
+.ourServiceImage{
+
+    height: 180px;
+    width: 100%;
+   
+}
+
+.ourServicesDiv{
+    height: 450px;
+    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+@media only screen and (max-width: 600px){
+
+
+    .ourServicesDiv{
+        margin: 2%;
+        height: auto;
+
+    }
+    .ourServiceImage{
+        margin-top: 2%;
+        height: auto;
+        width: 80%;
+        margin-left: 2%;
+    }
+    
+
+}

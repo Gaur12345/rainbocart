@@ -1,0 +1,30 @@
+.returnPolicyMainDiv{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+.returnPolicTable{
+
+    border: 1px solid black;
+}
+
+.returnPolicTable tr td{
+    border: 1px solid black;
+    text-align: left;
+}
+
+.termConditionPara p{
+    text-align: left;
+}
+
+@media (max-width: 500px) 
+{
+    .returnPolicyMainDiv{
+        margin-top: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

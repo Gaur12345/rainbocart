@@ -1,0 +1,263 @@
+.allDiveHere{
+
+    margin-top: 20%;
+    height: 100px;
+    background-color: rgb(240, 241, 181);
+    border-radius: 10px;
+
+    box-shadow: 16px 16px 20px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+.mainBar{
+    padding-top: 1vh;
+}
+.Headsearch input{
+    width: 70%;
+}
+.changePasswordButton{
+    background-color: #F39C12;
+    width: 100%;
+    height: 90%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 90%;
+}
+
+
+
+.tableDiv{
+
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 550px;
+    background-color: white;
+}
+
+
+.tableDivInvoice{
+
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 350px;
+}
+
+
+
+
+
+/* .ProductImage{
+
+    height: 30%;
+    width: 30%;
+
+} */
+
+.previewImage{
+
+    /* overflow-y: scroll; */
+    min-height: 50px;
+    max-width: 200px;
+  
+}
+
+.descriptionBox{
+
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttonLogo{
+
+    height: 20px;
+    cursor: pointer;
+}
+
+.updateModel{
+    margin-top: 3%;
+}
+
+.tableHead{
+
+    background-color :steelblue;
+    height: 50px;
+    text-align: center;
+}
+
+.shirtImage{
+
+    height: 30px;
+    width: 50%;
+    padding: 0%;
+    cursor: pointer;
+}
+
+.productImage{
+
+    height: 90%;
+    width: 50%;
+}
+
+
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: red ;
+    border-color: red;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid green ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #7FB3D5 ;
+    border-color: #7FB3D5;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: black
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+
+  .input_search{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+  }
+
+
+
+
+@media only screen and (max-width:600px){ 
+
+
+    .homeScreeAll{
+
+        height: auto;
+    }
+
+    .cardColorHome{
+
+      margin-top: 10%;
+      margin-bottom: 5%;
+       height : auto;
+    }
+    .mainBar{
+        padding-top: 9vh;
+    }
+    .mainBar h3{
+        font-size: 100%;
+    }
+
+    .navLinkSize{
+
+        width: 0px;
+    }
+
+    
+    .tableClass{
+ 
+        padding : 0px;
+        margin-left: 2%;
+      
+    }
+    .productImage{
+
+        height: 80%;
+        width: 100%;
+        padding-right: 0%;
+    }
+    .lableTD{
+
+        font-size: 90%;
+    }
+
+
+
+    .lableTD2{
+        font-size: 90%;
+    }
+    
+    .divLable{
+        width: 100%;
+        margin: 0%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        
+    
+    }
+
+    
+    .servicesTable{
+        margin: 0%;
+       
+    }
+
+
+
+
+    .hrisTable{
+
+        margin: 0%;
+        margin-bottom: 5%;
+
+    }
+
+
+    .downloadFiles{
+       
+        height: 650px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        overflow-y: scroll;
+    }
+
+    
+    .UploadButton{
+    
+        margin: 7%;
+
+    }
+
+    .fileType{
+        margin: 7%;
+    }
+
+
+    .inMobileView{
+        margin-top: 10%;
+    }
+
+    .inMobileViewButton{
+        margin-top: 5%;
+        width: 100%;
+    }
+    
+    .lastButton{
+
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    
+
+}

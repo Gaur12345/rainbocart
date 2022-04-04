@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  .row1{
+    padding: 10px;
+  }
+.image{
+  outline: orange 2px solid;
+}
+.image:active{
+  outline:black 2px solid;
+}
+.mobileView{
+  display: none;
+}
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img { 
+    cursor: pointer; 
+  }
+  
+  
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container123 {
+    position: relative;
+    display: none;
+  }
+@media only screen and (max-width: 600px){
+  .ClickShow{
+    display: none;
+  }
+  .mobileView{
+    display: block;
+  }
+}

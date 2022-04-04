@@ -1,0 +1,76 @@
+
+.konwAboutImage{
+    width: auto;
+    height: 40vh;
+    padding-top: 5%;
+}
+.aboutUsTextHeading{
+    background-color: white;
+    margin-top: 10vh;
+}
+
+.companylink{
+    background-color: #F39C12;
+    padding: 1%;
+    padding-inline: 2%;
+    outline: none;
+    color: white;
+    border: none;
+    text-decoration: none;
+
+}
+
+.meetTeamTitle{
+    margin-top: 5%;
+    height: 300px;
+    background-color: white;
+}
+.meetTeamTitleSecond{
+    margin-top: 6%;
+    
+}
+.meetTeamTitle2{
+    margin-top: 5%;
+    background-color: #f39c12;
+    color: white;
+    
+    padding: 5vh;
+
+}
+.teamImages{
+    width: 100%;
+    margin-top: 20%;
+    border-radius: 50%;
+}
+.teamDetails{
+    margin-top: 10%;
+}
+
+.aboutUSTextDescription{
+    text-align: justify;
+    margin: 1%;
+    line-height: 1.8rem;
+}
+
+.aboutUSHeadingText{
+    margin-left: 1%;
+    font-size: 120%;
+    text-align: left;
+ }
+
+
+ @media screen and (max-width: 480px) {
+
+    .aboutUsTextHeading{
+        margin-top: 10%;   
+    }
+
+    .meetTeamTitleSecond{
+        margin-top: 25%;
+        text-align: justify;
+    }
+    .aboutUSMainDiv{
+ padding-top: 5vh;
+    }
+
+ }

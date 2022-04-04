@@ -1,0 +1,103 @@
+
+.personalInformationSeller{
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    height: 88%;
+    width: 60%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.personalInformationSeller{
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.tableDivInfoSeller{
+    margin-left: 10%;
+   
+}
+.trPaddingHide
+{
+    padding:5px;
+    height: 45px;
+}
+.trPaddingHide :first-child{
+    text-align: left;
+}
+.editTD{
+    width: 15%;
+}
+.editIconSeller{
+    margin-left: 5%;
+    height: 20px;
+    width: 20px;
+}
+
+
+.changePasswordInfoSeller{
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    height: 50%;
+    width: 80%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.profileSection{
+   
+    margin-top: 8%;
+    margin-left: 15%;
+    background-color: white;
+    width: 40%;
+}
+
+.firstTD{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.tableDIv{
+    
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.buttonEP{
+
+
+    margin: 10%;
+    margin-left: 0%;
+}
+
+
+@media only screen and (max-width:600px){ 
+
+
+    .profileSection{
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        background-color: white;
+        width: 100%;
+    }
+
+    .changePasswordInfoSeller{
+        background-color: white;
+        margin-top: 20%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+
+        height: 90%;
+        width: 95%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+
+
+}

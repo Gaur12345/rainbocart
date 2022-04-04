@@ -1,0 +1,75 @@
+.label{
+    text-align: left;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+.card-header {
+  text-align: left;
+}
+.card-header h3{
+  font-size: medium;
+  font-weight: bold;
+}
+.form-control-input {
+    width: 35vw;
+}
+.editverification{
+  float: right;
+  background-color: #F39C12;
+  color: white;
+  padding: 1px;
+  padding-inline: 5px; 
+}
+.editverification:hover{
+  color: white;
+}
+.captcha-form{
+    width: 15vw;
+}
+.title{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+}
+.InformationBox{
+  text-align: left;
+}
+.RegistrationPageButtonRegistration{
+    background-color: #F39C12;
+    padding-top:2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 1.5%;
+    padding-inline: 6.5vw;
+    outline: none;
+    color: white;
+    border: none;
+  }
+  .RegistrationPageButtonRegistration:focus{
+    outline: none;
+  }
+  .RegistrationPageButtonRegistration:disabled{
+    outline: none;
+    background-color: gray;
+  }
+  
+@media only screen and (max-width: 500px){
+    .form-control-input{
+        width: 80vw;
+    }
+    .RegistrationPageButtonRegistration{
+        background-color: #F39C12;
+        padding-top:2%;
+        padding-bottom: 2%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-top: 1.5%;
+        padding-inline: 13vw;
+        outline: none;
+        color: white;
+        border: none;
+      }
+}

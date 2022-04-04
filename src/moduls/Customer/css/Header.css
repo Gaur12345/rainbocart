@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* .setHeaderPositionFixed{
+    overflow: hidden;
+    position: fixed;
+  
+}  */
+
+.logo{
+
+    height: 40px;
+    width: 120%;
+}
+
+.headerBar{
+    height: 120% ;
+    background-color: white;
+}
+
+.navbarMenu{
+
+    position: fixed;
+}
+
+.linkcolor{
+
+    color: black;
+}
+.buttonAll{
+
+  
+    background-color: white;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 14px;
+    color: black;
+}
+
+.buttonAll:hover{
+
+    color: orange;
+}
+
+
+.backgroundColo{
+    background-color: white;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.addtocartImage{
+
+    height: 50%;
+    width: 10%;
+}
+#collasible-nav-dropdown{
+    color: black;
+}
+
+
+/* Media query for 370 */
+@media only screen and (max-width: 800px){
+  
+    .logo{
+
+        height: 40px;
+        width: 60vw;
+        
+    
+    }
+
+    .headerNavBar {
+
+        display: none;
+    }
+
+    .sidebarTag{
+
+        display: block;
+    }
+
+}
